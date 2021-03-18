@@ -27,7 +27,7 @@ class App extends React.Component {
     super(props)
     this.state = {
       alphabets: [
-        { letter: "Start Typing", positions: [100,200,300,400], color:"white", size: "4em"}
+        { letter: "Start your typing", positions: [100,200,300,400], color:"white", size: "4em"}
       ]
     }
     this.genAlphabet = this.genAlphabet.bind(this)
